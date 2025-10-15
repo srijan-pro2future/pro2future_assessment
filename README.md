@@ -1,6 +1,6 @@
-# Full-Stack Item Management System
+# Pro2Future assessment
 
-A modern full-stack CRUD application demonstrating seamless integration between FastAPI backend and React frontend with Docker containerization.
+This is a description of the repository and your task.
 
 ## 🎯 Project Overview
 
