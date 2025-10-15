@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 5173
 
 # Command to run the Vite development server with host flag for Docker
-CMD ["pnpm", "run", "dev", "--host", "0.0.0.0"]
+CMD ["pnpm", "run", "dev"]
