@@ -135,7 +135,7 @@ function App() {
     <div className="app">
       <header className="header">
         <h1>📦 Item Management System</h1>
-        <p>Full-Stack CRUD Application with FastAPI & React</p>
+        <p>Pro2future Assessment</p>
       </header>
 
       <main className="main">

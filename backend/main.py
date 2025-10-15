@@ -23,7 +23,7 @@ class Item(BaseModel):
 
 # In-memory database
 items_db: List[Item] = [
-    Item(id=1, name="Sample Item 1", description="This is a sample item", price=29.99),
+    Item(id=1, name="Sample Item 1", description="This is a sample item", price=28.99),
     Item(id=2, name="Sample Item 2", description="Another sample item", price=49.99),
 ]
 
