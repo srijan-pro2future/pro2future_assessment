@@ -17,9 +17,6 @@ services:
           path: ./backend/uv.lock
         - action: rebuild
           path: ./backend/pyproject.toml
-    volumes:
-      - ./backend:/app
-      - /app/.venv
     environment:
       - PYTHONUNBUFFERED=1
     command: uv run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
@@ -42,9 +39,6 @@ services:
           path: ./frontend/Dockerfile
         - action: rebuild
           path: ./frontend/package.json
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
     environment:
       - VITE_API_URL=http://localhost:8000
     stdin_open: true
