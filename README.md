@@ -29,8 +29,8 @@ In the next steps you will find a detailed guide on how to set up and run the ap
 ### 1. Clone and Run
 
 ```bash
-git clone https://github.com/srijan-pro2future/pro2futre_assessment.git
-cd pro2futre_assessment
+git clone https://github.com/srijan-pro2future/pro2future_assessment.git
+cd pro2future_assessment
 
 # Build and run with Docker Compose then watch for changes
 docker compose build && docker compose up --watch
@@ -148,7 +148,7 @@ Add a docker volume to persist the model data.
 
 ### 3. Update the backend
 
-Add an endpoint `/llm` in the backend that takes a question as input and returns the response from the LLM. You can test the endpoint using the Swagger UI (http://localhost:8000/docs).
+Add an endpoint `/llm` in the backend that takes a question as input, performs an LLM call to the docker service, and returns the response from the LLM. You can test the endpoint using the Swagger UI (http://localhost:8000/docs).
 
 ### 4. Update the frontend
 
